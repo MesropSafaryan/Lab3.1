@@ -1,0 +1,39 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Product[3]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/LabWork3/LabWork3%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<a1:Product id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/LabWork3/LabWork3%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<productDateOfManufacture id="ref-6">01.01.2001</productDateOfManufacture>
+<productCode id="ref-7">1111111111111</productCode>
+<currentDay>1</currentDay>
+<currentMonth>1</currentMonth>
+<currentYear>2001</currentYear>
+<whetherFitForConsumption>false</whetherFitForConsumption>
+<_x003C_ProductName_x003E_k__BackingField id="ref-8">Товар1</_x003C_ProductName_x003E_k__BackingField>
+<_x003C_ExpirationDate_x003E_k__BackingField>100</_x003C_ExpirationDate_x003E_k__BackingField>
+</a1:Product>
+<a1:Product id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/LabWork3/LabWork3%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<productDateOfManufacture id="ref-9">01.01.2021</productDateOfManufacture>
+<productCode id="ref-10">2222222222222</productCode>
+<currentDay>1</currentDay>
+<currentMonth>1</currentMonth>
+<currentYear>2021</currentYear>
+<whetherFitForConsumption>true</whetherFitForConsumption>
+<_x003C_ProductName_x003E_k__BackingField id="ref-11">Товар2</_x003C_ProductName_x003E_k__BackingField>
+<_x003C_ExpirationDate_x003E_k__BackingField>400</_x003C_ExpirationDate_x003E_k__BackingField>
+</a1:Product>
+<a1:Product id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/LabWork3/LabWork3%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<productDateOfManufacture id="ref-12">03.03.2021</productDateOfManufacture>
+<productCode id="ref-13">3333333333333</productCode>
+<currentDay>3</currentDay>
+<currentMonth>3</currentMonth>
+<currentYear>2021</currentYear>
+<whetherFitForConsumption>false</whetherFitForConsumption>
+<_x003C_ProductName_x003E_k__BackingField id="ref-14">Товар3</_x003C_ProductName_x003E_k__BackingField>
+<_x003C_ExpirationDate_x003E_k__BackingField>100</_x003C_ExpirationDate_x003E_k__BackingField>
+</a1:Product>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

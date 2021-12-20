@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <ProductName>Товар1</ProductName>
+    <ProductCode>1111111111111</ProductCode>
+    <ProductDateOfManufacture>01.01.2001</ProductDateOfManufacture>
+    <ExpirationDate>100</ExpirationDate>
+  </Product>
+  <Product>
+    <ProductName>Товар2</ProductName>
+    <ProductCode>2222222222222</ProductCode>
+    <ProductDateOfManufacture>01.01.2021</ProductDateOfManufacture>
+    <ExpirationDate>400</ExpirationDate>
+  </Product>
+  <Product>
+    <ProductName>Товар3</ProductName>
+    <ProductCode>3333333333333</ProductCode>
+    <ProductDateOfManufacture>03.03.2021</ProductDateOfManufacture>
+    <ExpirationDate>100</ExpirationDate>
+  </Product>
+</ArrayOfProduct>
